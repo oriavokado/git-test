@@ -1,1 +1,11 @@
 test
+1. 로컬에서만 작업 -> 원격에 아직 변화 x (로컬이 더 최신)
+git add .
+git commit -m "메시지"
+git push
+
+2. 원격에 이미 올라간 게 있고 그걸 수정 (원격과 로컬이 다른 상태, 원격이 더 최신)
+git pull origin main (→ 원격의 변경사항을 로컬에 합치기)
+git add
+git commit
+git push
